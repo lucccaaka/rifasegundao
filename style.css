@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fceeee;
+    color: #510000;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: #fff0f0;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+.header .star {
+    font-size: 40px;
+}
+h1 {
+    margin: 0;
+    font-size: 30px;
+}
+h2.preco {
+    font-size: 36px;
+    color: #b00000;
+    margin-top: 10px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 5px;
+}
+.pix {
+    background-color: #b00000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.chave {
+    margin-top: 5px;
+    font-size: 14px;
+}
+.sorteio {
+    font-weight: bold;
+    margin-top: 15px;
+}
+.rifa-numeros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.rifa-numeros div {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: #ffeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #b00000;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.rifa-numeros div:hover {
+    background-color: #ffb3b3;
+}
+.whatsapp {
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    background-color: #25D366;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.contador {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #800000;
+}
